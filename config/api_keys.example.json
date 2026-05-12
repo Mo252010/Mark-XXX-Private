@@ -1,0 +1,17 @@
+{
+    "provider": "gemini",
+
+    "gemini_api_key": "YOUR_GEMINI_API_KEY_HERE",
+
+    "chat_api_url": "",
+    "chat_api_key": "",
+    "chat_model": "",
+
+    "telegram_bot_token": "",
+    "camera_index": 1,
+
+    "_comment_providers": "Set provider to: gemini | openrouter | groq | ollama | custom",
+    "_comment_openrouter": "For openrouter: chat_api_url=https://openrouter.ai/api/v1/chat/completions, chat_model=openai/gpt-4o-mini",
+    "_comment_groq": "For groq: chat_api_url=https://api.groq.com/openai/v1/chat/completions, chat_model=llama-3.3-70b-versatile",
+    "_comment_ollama": "For ollama: chat_api_url=http://localhost:11434/v1/chat/completions, chat_model=llama3 (no key needed)"
+}
